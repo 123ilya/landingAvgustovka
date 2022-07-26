@@ -65,15 +65,24 @@ header {
 .scheldule_title {
   text-align: center;
   margin: 30px;
+  font-size: 30px;
+  font-weight: 700;
 }
 .scheldule_date {
   margin: 20px;
   text-align: center;
+  font-size: 30px;
+  font-weight: 500;
 }
-
+.item_time {
+  font-weight: bold;
+}
+.item span {
+  font-weight: 600;
+}
 .grid_scheldule_day {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 110px auto;
   column-gap: 30px;
   row-gap: 30px;
 }

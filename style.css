@@ -61,17 +61,21 @@ header {
   border-style: solid;
   height: 70px;
 }
-.scheldule_container {
+/* _______________________ */
+.scheldule_title {
+  text-align: center;
+  margin: 30px;
+}
+.scheldule_date {
+  margin: 20px;
   text-align: center;
 }
-.scheldule_dates {
-  background-color: aqua;
-  display: flex;
-  justify-content: space-evenly;
-}
-table,
-td {
-  border: 1px solid black;
+
+.grid_scheldule_day {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 30px;
+  row-gap: 30px;
 }
 .partners {
   margin-top: 200px;

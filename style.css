@@ -13,8 +13,12 @@ header {
   /* background-color: antiquewhite; */
   /* font-family: "Montserrat", sans-serif; */
 }
+header img {
+  width: 200px;
+}
 .first_section_img {
-  width: 70%;
+  width: 60%;
+  padding: 30px;
 }
 .first_section_container {
   display: flex;
@@ -62,6 +66,28 @@ header {
   height: 70px;
 }
 /* _______________________ */
+.second_section {
+  color: #000000;
+  font-size: 22px;
+  line-height: 1.15;
+  font-weight: 500;
+  padding: 30px;
+}
+.second_section_sponsors {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-weight: 600;
+}
+.second_section_sponsors img {
+  width: 200px;
+  margin: 20px;
+}
+/* _______________________ */
+.scheldule {
+  background-color: #a0dbdb;
+  padding: 30px;
+}
 .scheldule_title {
   text-align: center;
   margin: 30px;

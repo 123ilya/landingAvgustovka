@@ -164,3 +164,9 @@ footer a {
 footer a:visited {
   color: beige;
 }
+/* _______________________Медиа запрос__________________________________ */
+@media only screen and (max-width: 1300px) {
+  * {
+    background-color: rgb(241, 25, 126);
+  }
+}

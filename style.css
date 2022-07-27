@@ -118,6 +118,7 @@ header img {
 .partners_caption {
   text-align: center;
   margin-bottom: 100px;
+  font-size: 30px;
 }
 .link_container {
   display: flex;
@@ -129,7 +130,7 @@ header img {
   height: 70px;
 }
 #link_container_rmc {
-  height: 80px;
+  height: 90px;
 }
 #link_container_vgues {
   height: 40px;
@@ -137,9 +138,17 @@ header img {
 footer {
   display: flex;
   justify-content: space-around;
-  margin-top: 200px;
+  margin-top: 50px;
   align-items: center;
+  background-color: #171717;
+  height: 200px;
 }
 footer img {
   width: 50px;
+}
+footer a{
+  color: #ffffff;
+}
+footer a:visited{
+  color: beige;
 }

@@ -2,14 +2,24 @@
   font-family: "Montserrat", sans-serif;
 }
 header {
+  /* Закрепляем header */
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  /* _____________ */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
   color: #000000;
   font-size: 19px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
+  background-color: white;
+  margin-top: 0;
   /* background-color: antiquewhite; */
   /* font-family: "Montserrat", sans-serif; */
 }
@@ -65,7 +75,8 @@ header img {
   border-radius: 10px;
 }
 .btn_registration:hover {
-background-color: #69b3b3;}
+  background-color: #69b3b3;
+}
 /* _______________________ */
 .second_section {
   color: #000000;

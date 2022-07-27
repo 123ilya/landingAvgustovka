@@ -122,10 +122,17 @@ header img {
 .link_container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .link_container img {
-  width: 70px;
+  height: 70px;
+}
+#link_container_rmc {
+  height: 80px;
+}
+#link_container_vgues {
+  height: 40px;
 }
 footer {
   display: flex;

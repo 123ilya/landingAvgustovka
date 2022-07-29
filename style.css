@@ -58,7 +58,7 @@ header img {
   margin-top: 30px;
 }
 .first_section_img {
-  width: 60%;
+  width: 80%;
   padding: 30px;
 }
 .first_section_container {
@@ -70,6 +70,8 @@ header img {
   justify-content: space-evenly;
   align-items: center;
   justify-items: center;
+  align-content: center;
+  gap: 80px;
 }
 .first_section_container_about_date {
   color: #a0dbdb;
@@ -107,6 +109,7 @@ header img {
   /* border-radius: 10px; */
   border: none;
   background-color: white;
+  color: red;
 }
 .btn_registration img {
   width: 100%;
@@ -237,7 +240,6 @@ footer a:visited {
   }
 
   .btn_registration {
-    
     width: 200px;
     border-radius: 1vw;
   }

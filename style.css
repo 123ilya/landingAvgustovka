@@ -27,7 +27,7 @@ header {
   letter-spacing: 1px;
   background-color: white;
   margin-top: 0;
-  padding: 5px;
+  padding: 30px;
   /* try grid */
   display: grid;
   grid-template-areas: "item1 item2 logo item4 item5";
@@ -58,18 +58,19 @@ header a:visited {
 }
 
 header img {
-  width: 200px;
+  width: 300px;
 }
 /* ________________Первая секция_____________________________ */
 .first_section {
   margin-top: 30px;
 }
 .first_section_img {
-  width: 80%;
+  width: 100%;
   padding: 30px;
 }
 .first_section_container {
-  display: flex;
+  display: grid;
+  justify-items: center;
 }
 .first_section_container_about {
   display: grid;
@@ -92,7 +93,7 @@ header img {
 }
 .first_section_container_about_motto {
   color: #000000;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 1.15;
   font-weight: 700;
   text-transform: uppercase;
@@ -100,6 +101,7 @@ header img {
   background-position: center center;
   border-color: transparent;
   border-style: solid;
+  margin-top: 40px;
 }
 .btn_registration {
   /* color: #000000;
@@ -175,6 +177,14 @@ header img {
   column-gap: 30px;
   row-gap: 30px;
 }
+/* --------Speakers---------- */
+.speakers_header {
+  text-align: center;
+  margin: 30px;
+  font-size: 30px;
+  font-weight: 700;
+}
+/* ----------------------------- */
 .partners {
   margin-top: 200px;
 }

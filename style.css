@@ -178,7 +178,7 @@ header img {
   row-gap: 30px;
 }
 /* --------Speakers---------- */
-.speakers_header {
+.speakers_header{
   text-align: center;
   margin: 30px;
   font-size: 30px;
@@ -237,7 +237,7 @@ footer a:visited {
   color: beige;
 }
 /* _______________________Медиа запрос до 1300px__________________________________ */
-@media only screen and (max-width: 1300px) {
+/* @media only screen and (max-width: 1300px) {
   header {
     grid-template-areas: "logo" "item1" "item2" "item4" "item5";
     justify-items: center;
@@ -266,9 +266,9 @@ footer a:visited {
     width: 200px;
     border-radius: 1vw;
   }
-}
+} */
 /* ________________Медиа запрос до 1000px_______________________ */
-@media only screen and (max-width: 1000px) {
+/* @media only screen and (max-width: 1000px) {
   .link_container {
     display: grid;
     grid-template-columns: auto;
@@ -291,9 +291,9 @@ footer a:visited {
     align-content: center;
     gap: 20px;
   }
-}
+} */
 /*_________________ Медиа запрос до 700пх _________________*/
-@media only screen and (max-width: 700px) {
+/* @media only screen and (max-width: 700px) {
   .second_section_sponsors {
     display: grid;
     grid-template-columns: auto;
@@ -303,4 +303,4 @@ footer a:visited {
     justify-content: left;
     justify-items: center;
   }
-}
+} */

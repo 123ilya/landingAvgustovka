@@ -103,19 +103,19 @@ header img {
   border-style: solid;
   margin-top: 40px;
 }
-.btn_registration {
-  /* color: #000000;
+/* .btn_registration {
+  color: #000000;
   font-size: 22px;
   line-height: 1.15;
   font-weight: 500;
   letter-spacing: 1px;
-  text-transform: uppercase; */
-  /* background-color: #a0dbdb; */
-  /* border-color: transparent;
-  border-style: solid; */
+  text-transform: uppercase; 
+  background-color: #a0dbdb;
+  border-color: transparent;
+  border-style: solid;
   width: 250px;
-  /* height: 70px; */
-  /* border-radius: 10px; */
+  height: 70px;
+  border-radius: 10px;
   border: none;
   background-color: white;
   color: red;
@@ -123,7 +123,7 @@ header img {
 .btn_registration img {
   width: 100%;
 }
-/* .btn_registration:hover {
+ .btn_registration:hover {
 } */
 /* _______________________ */
 .second_section {
@@ -160,10 +160,16 @@ header img {
   font-weight: 700;
 }
 /* -------------------------------------- */
-.scheldule_22AG{
+.scheldule_22AG,.scheldule_23AG,.scheldule_24AG{
+  width: 100%;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 10% 70% auto;
+  grid-gap: 50px;
+  align-items: center;
+  justify-items: left;
+  text-align: left;
 }
+
 /* .scheldule_date {
   margin: 20px;
   text-align: center;

@@ -177,6 +177,12 @@ header img {
   justify-content: space-evenly;
   margin: 30px;
 }
+.scheldule_date {
+  text-align: center;
+  margin: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
 .scheldule_dates button {
   width: 210px;
   font-size: 20px;

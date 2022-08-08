@@ -160,7 +160,9 @@ header img {
   font-weight: 700;
 }
 /* -------------------------------------- */
-.scheldule_22AG,.scheldule_23AG,.scheldule_24AG{
+.scheldule_22AG,
+.scheldule_23AG,
+.scheldule_24AG {
   width: 100%;
   display: grid;
   grid-template-columns: 10% 70% auto;
@@ -168,6 +170,21 @@ header img {
   align-items: center;
   justify-items: left;
   text-align: left;
+}
+.scheldule_dates {
+  display: grid;
+  grid-template-columns: 10% 10% 10%;
+  justify-items: center;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+.scheldule_dates button {
+  width: 210px;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  background-color: #a0dbdb; ;
+  
 }
 
 /* .scheldule_date {
@@ -190,7 +207,7 @@ header img {
 } */
 /* --------------------------------Программа------------------------------------------------------------ */
 /* --------Speakers---------- */
-.speakers_header{
+.speakers_header {
   text-align: center;
   margin: 30px;
   font-size: 30px;

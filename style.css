@@ -147,11 +147,11 @@ header img {
   margin: 20px;
 }
 /* _______________________ */
-/* ПРОГРАММА ОТКЛЮЧЕНА */
+/* -----------------------------------ПРОГРАММА----------------------------------------------  */
 .scheldule {
   background-color: #a0dbdb;
   padding: 30px;
-  display: none;
+  /* display: none; */
 }
 .scheldule_title {
   text-align: center;
@@ -159,7 +159,12 @@ header img {
   font-size: 30px;
   font-weight: 700;
 }
-.scheldule_date {
+/* -------------------------------------- */
+.scheldule_22AG{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+/* .scheldule_date {
   margin: 20px;
   text-align: center;
   font-size: 30px;
@@ -176,7 +181,8 @@ header img {
   grid-template-columns: 110px auto;
   column-gap: 30px;
   row-gap: 30px;
-}
+} */
+/* --------------------------------Программа------------------------------------------------------------ */
 /* --------Speakers---------- */
 .speakers_header{
   text-align: center;

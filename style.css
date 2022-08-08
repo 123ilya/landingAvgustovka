@@ -187,6 +187,7 @@ header img {
 /* JavaScript Classes */
 .notdisplay {
   display: none;
+  color: chartreuse;
 }
 
 /* .scheldule_date {

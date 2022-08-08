@@ -151,7 +151,6 @@ header img {
 .scheldule {
   background-color: #a0dbdb;
   padding: 30px;
-  /* display: none; */
 }
 .scheldule_title {
   text-align: center;
@@ -160,12 +159,12 @@ header img {
   font-weight: 700;
 }
 /* -------------------------------------- */
-.scheldule_22AG,
-.scheldule_23AG,
-.scheldule_24AG {
+#scheldule_22AG,
+#scheldule_23AG,
+#scheldule_24AG {
   width: 100%;
   display: grid;
-  grid-template-columns: 10% 70% auto;
+  grid-template-columns: 10% 50%;
   grid-gap: 50px;
   align-items: center;
   justify-items: left;
@@ -183,8 +182,11 @@ header img {
   font-size: 30px;
   font-weight: 600;
   border: none;
-  background-color: #a0dbdb; ;
-  
+  background-color: #a0dbdb;
+}
+/* JavaScript Classes */
+.notdisplay {
+  display: none;
 }
 
 /* .scheldule_date {

@@ -152,6 +152,9 @@ header img {
   background-color: #a0dbdb;
   padding: 30px;
 }
+.scheldule span {
+  font-weight: bold;
+}
 .scheldule_title {
   text-align: center;
   margin: 30px;

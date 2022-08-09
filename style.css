@@ -169,6 +169,7 @@ header img {
   align-items: center;
   justify-items: left;
   text-align: left;
+  font-size: 20px;
 }
 .scheldule_dates {
   display: grid;

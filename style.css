@@ -223,6 +223,21 @@ header img {
   font-size: 30px;
   font-weight: 700;
 }
+.speakers {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+}
+.speakers img {
+  height: 300px;
+}
+.speakers_cardcontainer {
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: center;
+  gap: 20px;
+  text-align: center;
+}
 /* ----------------------------- */
 .partners {
   margin-top: 200px;

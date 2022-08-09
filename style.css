@@ -252,8 +252,8 @@ header img {
 }
 .link_container {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  gap: 30px;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 20px;
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
@@ -267,10 +267,13 @@ header img {
   height: 90px;
 }
 #link_container_pkiro {
-  height: 30px;
+  height: 25px;
 }
 #link_container_vgues {
-  height: 40px;
+  height: 30px;
+}
+#minpros {
+  height: 15px;
 }
 footer {
   display: grid;

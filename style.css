@@ -240,8 +240,9 @@ header img {
   justify-items: center;
   gap: 20px;
   text-align: center;
+  max-width: 500px;
 }
-.speakers_fio{
+.speakers_fio {
   font-weight: 550;
 }
 /* ----------------------------- */
@@ -275,7 +276,7 @@ header img {
 #link_container_vgues {
   height: 30px;
 }
-#link_container_fppk{
+#link_container_fppk {
   height: 60px;
 }
 #minpros {

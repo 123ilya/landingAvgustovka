@@ -241,6 +241,9 @@ header img {
   gap: 20px;
   text-align: center;
 }
+.speakers_fio{
+  font-weight: 550;
+}
 /* ----------------------------- */
 .partners {
   margin-top: 200px;

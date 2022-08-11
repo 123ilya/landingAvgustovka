@@ -88,13 +88,13 @@
     <!-- --------------------Программа конференции------- -->
     <div class="scheldule_title">Программа конференции</div>
     <section class="scheldule">
-      <!-- <div class="scheldule_dates">
-        <button id="scheldule_button_22">22 АВГУСТА</button
-        ><button id="scheldule_button_23">23 АВГУСТА</button
-        ><button id="scheldule_button_24">24 АВГУСТА</button>
-      </div> -->
-      <div class="scheldule_date">22 АВГУСТА</div>
-      <div id="scheldule_22AG">
+      <div class="scheldule_dates">
+        <button id="button22" class="button22 pressed">22 АВГУСТА</button
+        ><button id="button23" class="button23">23 АВГУСТА</button
+        ><button id="button24" class="button24">24 АВГУСТА</button>
+      </div>
+      <!-- <div class="scheldule_date">22 АВГУСТА</div> -->
+      <div id="scheldule_22AG" class="scheldule_22AG">
         <div class="scheldule_time_item">09:00 - 11:30</div>
         <div class="scheldule_event_item">
           <span>Стратегическая сессия.</span> <br />
@@ -128,8 +128,8 @@
         <div class="scheldule_event_place">ТКК Андеграунд, Гоголя, 41</div>
       </div>
       <!-- --- -->
-      <div class="scheldule_date">23 АВГУСТА</div>
-      <div id="scheldule_23AG">
+      <!-- <div class="scheldule_date">23 АВГУСТА</div> -->
+      <div id="scheldule_23AG" class="scheldule_23AG displaynone">
         <div class="scheldule_time_item">09:00 - 17:00</div>
         <div class="scheldule_event_item">
           <span>Стратегическая сессия.</span><br />
@@ -251,8 +251,8 @@
       </div>
 
       <!-- --- -->
-      <div class="scheldule_date">24 АВГУСТА</div>
-      <div id="scheldule_24AG">
+      <!-- <div class="scheldule_date">24 АВГУСТА</div> -->
+      <div id="scheldule_24AG" class="scheldule_24AG displaynone">
         <div class="scheldule_time_item">10:00 - 13:00</div>
         <div class="scheldule_event_item">
           <span
@@ -309,7 +309,6 @@
 
         <div class="scheldule_time_item">10:00 - 16:30</div>
         <div class="scheldule_event_item">
-          <span id="speakers"></span>
           <span
             >Креатив-сессия с сообществами лидеров образования и молодых
             педагогов Приморского края.</span
@@ -321,11 +320,13 @@
         <div class="scheldule_event_place">Гимназия № 1, Уборевича, 8</div>
       </div>
     </section>
+    <span id="speakers"></span>
 
-    <div class="speakers_header">Спикеры</div>
+    <div class="speakers_header"  >Спикеры</div>
 
     <!-- -----------------SPEAKERS------------------------------------ -->
-    <section class="speakers">
+    <section  class="speakers">
+      
       <!-- --------------------- -->
       <div class="speakers_cardcontainer">
         <img src="./img/kozgemykoon.jpeg" alt="" />

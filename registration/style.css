@@ -62,7 +62,7 @@ header img {
 }
 .link_container {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
   gap: 20px;
   justify-content: space-evenly;
   align-items: center;
@@ -82,11 +82,14 @@ header img {
 #link_container_vgues {
   height: 30px;
 }
-#link_container_fppk{
+#link_container_fppk {
   height: 60px;
 }
 #minpros {
   height: 50px;
+}
+#link_container_novodays {
+  height: 40px;
 }
 footer {
   display: grid;

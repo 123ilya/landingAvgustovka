@@ -222,6 +222,26 @@ header img {
   row-gap: 30px;
 } */
 /* --------------------------------Программа------------------------------------------------------------ */
+/* ----------------Точки питания---------------------------- */
+.food_points {
+  display: grid;
+  background-color: #a0dbdb;
+  height: 150px;
+}
+.food_points_caption {
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+}
+.food_point_container {
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  justify-content: space-around;
+}
+/* -----------------Точки питания---------------------------- */
 /* --------Speakers---------- */
 .speakers_header {
   text-align: center;

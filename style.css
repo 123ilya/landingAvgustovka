@@ -187,7 +187,9 @@ header img {
   font-size: 20px;
   font-weight: 600;
 }
-.button22, .button23, .button24  {
+.button22,
+.button23,
+.button24 {
   width: 210px;
   font-size: 30px;
   font-weight: 600;
@@ -201,6 +203,10 @@ header img {
 }
 .displaynone {
   display: none;
+}
+.program_pdf {
+  font-size: 20px;
+  margin: 30px;
 }
 
 /* .scheldule_date {
@@ -272,7 +278,8 @@ header img {
 }
 #speakers {
   position: static;
-margin-top: 50px;}
+  margin-top: 50px;
+}
 /* ----------------------------- */
 .partners {
   margin-top: 200px;
@@ -310,7 +317,7 @@ margin-top: 50px;}
 #minpros {
   height: 50px;
 }
-#link_container_novodays{
+#link_container_novodays {
   height: 40px;
 }
 footer {

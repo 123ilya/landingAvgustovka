@@ -291,7 +291,7 @@ header img {
 }
 .link_container {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
   gap: 20px;
   justify-content: space-evenly;
   align-items: center;
@@ -320,6 +320,13 @@ header img {
 #link_container_novodays {
   height: 40px;
 }
+#link_container_domknigi{
+  height: 50px;
+}
+#link_container_vladkniga{
+  height: 60px;
+}
+/* ---------------footer--------------------- */
 footer {
   display: grid;
   grid-template-columns: auto auto auto;

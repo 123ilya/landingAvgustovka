@@ -320,10 +320,10 @@ header img {
 #link_container_novodays {
   height: 40px;
 }
-#link_container_domknigi{
+#link_container_domknigi {
   height: 50px;
 }
-#link_container_vladkniga{
+#link_container_vladkniga {
   height: 60px;
 }
 /* ---------------footer--------------------- */
@@ -347,6 +347,17 @@ footer a {
 }
 footer a:visited {
   color: beige;
+}
+/* ------------------------------Extentions------------------------------------------------- */
+/* .extensions_container {
+  background-color: #a0dbdb;
+} */
+.extensions_container h1 {
+  text-align: center;
+}
+.extensions_container li {
+  margin: 20px;
+  font-size: 25px;
 }
 /* _______________________Медиа запрос до 1300px__________________________________ */
 /* @media only screen and (max-width: 1300px) {

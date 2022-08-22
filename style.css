@@ -232,13 +232,14 @@ header img {
 .food_points {
   display: grid;
   background-color: #a0dbdb;
-  height: 150px;
+  /* height: 300px; */
 }
 .food_points_caption {
   text-align: center;
   margin: 0;
   font-size: 30px;
   font-weight: 700;
+  margin-bottom: 50px;
 }
 .food_point_container {
   font-size: 20px;
@@ -246,6 +247,7 @@ header img {
   grid-template-columns: auto auto;
   gap: 20px;
   justify-content: space-around;
+  margin-bottom: 30px;
 }
 /* -----------------Точки питания---------------------------- */
 /* --------Speakers---------- */
